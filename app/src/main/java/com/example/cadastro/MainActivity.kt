@@ -27,5 +27,18 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this@MainActivity, formulario.toString(), Toast.LENGTH_SHORT).show()
         }
 
+        amb.limparBt.setOnClickListener {
+
+            amb.inputNameEt.text.clear()
+            amb.inputTelEt.text.clear()
+            amb.inputEmailEt.text.clear()
+            amb.emailCb.isChecked=false
+            amb.masculinoRb.isChecked=false
+            amb.femininoRb.isChecked=false
+            amb.cidadeEt.text.clear()
+            amb.ufSpinner.setSelection(0)
+
+        }
+
     }
 }
