@@ -10,6 +10,9 @@
     <string name="masculino">Masculino</string>
     <string name="feminino">Feminino</string>
     <string name="uf">UF</string>
+    <string name="salvar">Salvar</string>
+    <string name="limpar">Limpar</string>
+    <string name="cidade">Cidade</string>
     <string-array name="ufArray">
         <item>Acre</item>
         <item>Alagoas</item>
