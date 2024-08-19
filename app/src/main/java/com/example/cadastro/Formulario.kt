@@ -10,6 +10,6 @@ class Formulario(
     var uf : String
 ){
     override fun toString(): String {
-        return "Nome: '$nome'\n Telefone: '$telefone'\n Email: '$email'\n Ingressou na lista de emails? $ingressouEmail\n Sexo: '$sexo'\n Cidade: '$cidade'\n UF: '$uf'"
+        return " Nome: '$nome'\n Telefone: '$telefone'\n Email: '$email'\n Ingressou na lista de emails? $ingressouEmail\n Sexo: '$sexo'\n Cidade: '$cidade'\n UF: '$uf'"
     }
 }
