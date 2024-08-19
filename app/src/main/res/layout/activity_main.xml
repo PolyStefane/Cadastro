@@ -158,4 +158,31 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ufTv" />
 
+    <Button
+        android:id="@+id/salvarBt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"
+        android:text="Salvar"
+        app:layout_constraintBottom_toBottomOf="@+id/limparBt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/limparBt"
+        app:layout_constraintTop_toTopOf="@+id/limparBt"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/limparBt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:text="Limpar"
+        app:layout_constraintEnd_toStartOf="@+id/salvarBt"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ufSpinner" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
