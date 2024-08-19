@@ -124,13 +124,13 @@
         app:layout_constraintTop_toBottomOf="@+id/sexoTv">
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/masculinoRb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Masculino" />
 
         <RadioButton
-            android:id="@+id/radioButton4"
+            android:id="@+id/femininoRb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Feminino" />
